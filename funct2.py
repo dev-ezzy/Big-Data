@@ -1,5 +1,4 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
+
 # EDA
 #writting helper function to help us make x-axis countplots in our EDA process
 def sns_xcount(column , data):
