@@ -1,4 +1,6 @@
 # EDA
+import seaborn as sns
+import matplotlib.pyplot as plt
 #writting helper function to help us make x-axis countplots in our EDA process
 def sns_xcount(column , data, size = (10,6)):
     sns.countplot(x = column, data = data, pallete = "tab_10", figsize = size)
